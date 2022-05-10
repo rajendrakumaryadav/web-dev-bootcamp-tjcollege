@@ -1,0 +1,19 @@
+{
+  "name": "web-dev-bootcamp",
+  "version": "1.0.0",
+  "description": "Simple bootcamp Training for TJ college students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "tj college",
+    "bootcamp",
+    "web-dev",
+    "web-development",
+    "web-development-bootcamp"
+  ],
+  "author": "Rajendra Kumar R Yadav",
+  "license": "Unlicensed"
+}
