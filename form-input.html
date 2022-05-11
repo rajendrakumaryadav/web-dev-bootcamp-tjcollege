@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form & Input</title>
+  </head>
+  <body>
+      <h1>Personal Information Submission Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+      <section>
+        <label for="emailAddr"
+          >Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input
+          type="email"
+          name="emailAddr"
+          placeholder="Enter your email address"
+          autocomplete="off"
+          id="emailAddr"
+        />
+      </section>
+      <br />
+      <section>
+        <label for="password">&nbsp;Password:</label>
+        <input
+          value="Place"
+          readonly
+          type="password"
+          placeholder="Password here..."
+          name="password"
+          id="password"
+        />
+      </section>
+      <br />
+      <section>
+        <label for="completeAddr">Complete Address</label>
+        <textarea
+          required
+          placeholder="Enter your complete address"
+          id="completeAddr"
+          cols="35"
+          rows="7"
+          name="completeAddr"
+        ></textarea>
+      </section>
+      <br />
+      <section>
+        <label for="mobile_companies">Mobile Maker</label>
+        <select required name="mobile_companies" id="mobile_companies">
+          <option id="motorola">Motorola</option>
+          <option disabled id="nokia">Nokia</option>
+          <option id="samsung">Samsung</option>
+          <option id="apple">Apple</option>
+        </select>
+      </section>
+      <br />
+
+      <section>
+        <label for="mobile_companies">Mobile Maker</label>
+        <select required name="mobile_companies" id="mobile_companies">
+          <optgroup label="Mobile Maker">
+            <option id="motorola">Motorola</option>
+            <option id="nokia">Nokia</option>
+          </optgroup>
+          <optgroup label="Mobile + Laptop Maker">
+            <option id="samsung">Samsung</option>
+            <option id="apple">Apple</option>
+            </optgroup>
+          </optgroup>
+        </select>
+      </section>
+
+      <br />
+      <section>
+        <input type="button" value="Submit" />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Add me in the list" />
+      </section>
+    </fieldset>
+    </form>
+  </body>
+</html>
