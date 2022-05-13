@@ -1,0 +1,26 @@
+body {
+  padding: 10px;
+  color: gray;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
+
+a:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+nav {
+  padding-top: 30px;
+  background: #333;
+}
+nav > a {
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background: gray;
+}
