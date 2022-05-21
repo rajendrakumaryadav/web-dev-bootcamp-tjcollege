@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 6 - [CSS] - Index 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f9f9cc;
+        }
+
+        .header, .footer {
+            background: gray;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        .column {
+            float: left;
+            padding: 15px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .menu {
+            width: 25%;
+        }
+
+        .content {
+            width: 75%;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: cadetblue;
+            color: white;
+        }
+
+        .menu li:hover {
+            background: aqua;
+            color: bisque;
+        }
+
+        h1 {
+            font-family: cursive;
+        }
+
+
+        .course {
+            text-align: end;
+        }
+
+        body > div > div > h1, body > div > div > section > h1 {
+            color: blue;
+        }
+
+        h1 + p {
+            background: lime;
+            font-family: "Courier New", Courier, monospace;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+<div class="clearfix">
+    <div class="header">
+        <h1>My First Website</h1>
+    </div>
+    <div class="menu column">
+        <ul>
+            <li>Graduation</li>
+            <li>Jr. School</li>
+            <li>Jr. college</li>
+            <li>Primary School</li>
+            <li>Secondary school</li>
+        </ul>
+    </div>
+
+    <div class="column content">
+        <section>
+            <h1 class="course">My Graduation</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aliquam aspernatur
+                consectetur
+                debitis dicta dignissimos dolores earum fugit hic illum magni, praesentium quae quibusdam saepe tempore
+                veniam
+                voluptates voluptatibus!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem corporis debitis dolorem
+                doloremque
+                illo molestiae nam nemo neque obcaecati possimus, qui reiciendis reprehenderit sed soluta vero vitae
+                voluptatem
+                voluptatum.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus, facilis libero magni neque
+                officiis
+                quae quidem sunt temporibus? Aliquid cum deleniti ducimus id iure molestias provident quam qui vero.</p>
+
+        </section>
+    </div>
+</div>
+<div class="footer">
+    <p>&copy; Rajendra Kumar Yadav - 2022</p>
+</div>
+</body>
+</html>

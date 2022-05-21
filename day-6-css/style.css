@@ -1,0 +1,56 @@
+/**, body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+div {
+    text-align: justify;
+}
+div.sticky {
+    border: 1px solid goldenrod;
+    background: yellowgreen;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    padding: 8px;
+}
+
+div.child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 3px double coral;
+}
+
+div.parent {
+    border: 3px solid #00ff00;
+    width: 80%;
+    /*height: 1200px;*/
+}
+
+img {
+    /*width: 80%;*/
+    /*position: fixed;*/
+    /*left: auto;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*z-index: -1;*/
+    padding: 0 5px 5px 0;
+    opacity: 0.5;
+    height: 120px;
+    width: 200px;
+    float: left;
+}
+
+.img-float-right {
+    float: right;
+}
+div.overflow {
+    background: lightcoral;
+    width: 200px;
+    border: 1px solid;
+    height: 200px;
+    /*overflow: auto;*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
