@@ -1,0 +1,102 @@
+:root {
+    --lime: lime;
+    --height: 500px;
+    --header-size: 15px;
+}
+
+#btn-default {
+    padding: 5px;
+    font-size: 15px;
+}
+
+#btn-default:hover {
+    font-size: var(--header-size);
+    font-family: "Courier New", Courier, monospace;
+    display: block;
+}
+
+/*p:first-child {*/
+/*    color: lightcoral;*/
+/*}*/
+
+a:link {
+    color: var(--lime);
+}
+
+a:visited {
+    color: #0d0233;
+}
+
+a:hover {
+    color: lightcoral;
+    font-size: larger;
+}
+
+a:active {
+    color: aqua;
+}
+
+
+/*p::first-line {*/
+/*    color: red;*/
+/*    font-variant: small-caps;*/
+/*}*/
+
+/*p::first-letter {*/
+/*    color: #888;*/
+/*    font-size: 200%;*/
+/*}*/
+p:nth-child(1) {
+    background: #FC0ACE;
+}
+
+/*p:nth-last-of-type(1) {*/
+/*    background: aquamarine;*/
+/*}*/
+
+p::after {
+    content: url("https://loremflickr.com/640/360");
+}
+
+
+::marker {
+    color: lightcoral;
+    font-size: 25px;
+}
+
+::selection {
+    color: goldenrod;
+    background: var(--lime);
+}
+
+
+img {
+    opacity: 0.15;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+
+#colorbox {
+    background: var(--lime);
+    height: 500px;
+    width: auto;
+    opacity: 0.1;
+}
+
+#colorbox:hover {
+    opacity: 0.9;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid turquoise;
+}
+
